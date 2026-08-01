@@ -118,7 +118,7 @@ export async function generateMetadata({
           width: 1200,
           height: 630,
           alt: "Jashan Singla — AI Automation & Cybersecurity",
-          type: "image/jpeg",
+          type: "image/png",
         },
       ],
     },
