@@ -1,0 +1,220 @@
+{
+  "globals": {
+    "seeLive": "See live",
+    "openToFreelance": "Available for opportunities",
+    "email": "jashansingla30@gmail.com",
+    "pages": {
+      "home": "Home",
+      "about": "About",
+      "works": "Work",
+      "contact": "Contact",
+      "linkedin": "Linkedin",
+      "openMenu": "Open navigation menu"
+    }
+  },
+  "getInTouch": {
+    "line1": "Interested in",
+    "line2": "working together?",
+    "line3": "Drop a line",
+    "line4": "or simply",
+    "line5": "GET IN TOUCH"
+  },
+  "footer": {
+    "dropALine": "Drop a line",
+    "pages": "Pages",
+    "socialMedia": "Social Media"
+  },
+  "home": {
+    "hero": {
+      "label": "Cybersecurity Enthusiast & AI Automation Intern",
+      "title": "I build intelligent systems <span class='opacity-60'>where security meets innovation</span>.",
+      "description": "Passionate about cybersecurity and AI automation. Hands-on experience identifying and mitigating vulnerabilities like SQLi, XSS, CSRF, and IDOR — while exploring LLMOps, agentic AI, and OSINT investigations. Not just secure — intelligent.",
+      "cta1": "Start a project",
+      "cta2": "View work"
+    },
+    "resume": {
+      "title": "<span class='mobile-landscape:w-fit mobile-landscape:ml-auto'>Building a Safer</span><span class='flex flex-col'><span>Digital World Through</span><span>AI & Security.</span></span>",
+      "description": "Focused on building a career in penetration testing, web security, and digital forensics — while interning on AI automation and intelligent solutions at CSRBOX. From hunting vulnerabilities to fine-tuning LLMs, always with the same attention to detail.",
+      "cta": "Learn more",
+      "ctaSuffix": " about Jashan Singla"
+    },
+    "selectedWorks": {
+      "title": "Featured work",
+      "description": "Creating experiences that people love to use because we start from the starting point of those people.",
+      "copy": "I design and build digital experiences that blend creativity, technology, and strategy — helping ideas become engaging products, platforms, and interactive experiences.",
+      "cta": "View all works"
+    },
+    "services": {
+      "title": "From AI Automation to Cybersecurity, I've Got You Covered.",
+      "description": "I work across two worlds — intelligent AI solutions and security-first engineering. Hands-on experience automating workflows, orchestrating AI agents, and hunting down the vulnerabilities that threaten the web.",
+      "aiAutomation": {
+        "title": "AI Automation & Intelligent Solutions",
+        "workflowAutomation": {
+          "title": "Workflow Automation",
+          "copy": "Repetitive work, automated.",
+          "description": "Designing and orchestrating automated workflows that remove manual overhead — connecting tools, data, and AI to make systems run on their own."
+        },
+        "llmOps": {
+          "title": "LLM Operations (LLMOps)",
+          "copy": "Language models, production-ready.",
+          "description": "Fine-tuning large language models for domain-specific applications and managing their lifecycle — deployment, evaluation, and iteration for reliable outputs."
+        },
+        "agenticAI": {
+          "title": "Agentic AI Development",
+          "copy": "AI that acts, not just answers.",
+          "description": "Building AI agents that plan, reason, and execute tasks autonomously — solving real problems end-to-end with intelligent orchestration."
+        }
+      },
+      "cybersecurity": {
+        "title": "Cybersecurity & Digital Forensics",
+        "webSecurity": {
+          "title": "Web Security & Pentesting",
+          "copy": "Finding the holes before attackers do.",
+          "description": "Hands-on identification and mitigation of SQLi, XSS, CSRF, broken access control, broken authentication, and IDOR — using tools like Burp Suite, Nmap, and Metasploit."
+        },
+        "osint": {
+          "title": "OSINT & Threat Intelligence",
+          "copy": "Digital footprints, exposed.",
+          "description": "Open-source intelligence investigations using Google Lens, TinEye, Yandex, and Google Earth — analyzing phishing sites, fake news networks, and online threats."
+        },
+        "forensics": {
+          "title": "Digital Forensics & Reporting",
+          "copy": "Evidence, documented and defensible.",
+          "description": "Digital forensics and ethical investigations with Wireshark and analysis tools — producing clear technical reports with remediation strategies."
+        }
+      },
+      "foundations": {
+        "title": "How I Work",
+        "securityFirst": {
+          "title": "Security-First Mindset",
+          "copy": "Security is not an afterthought.",
+          "description": "Every solution is built with security in mind — from the first scan to the final report. I think like an attacker so systems stay protected."
+        },
+        "ethicalReporting": {
+          "title": "Ethical Reporting",
+          "copy": "Findings that are safe and responsible.",
+          "description": "Verified data, responsible disclosure, and clear documentation — reporting vulnerabilities and intelligence findings ethically and professionally."
+        },
+        "continuousLearning": {
+          "title": "Continuous Learning",
+          "copy": "Always learning, always growing.",
+          "description": "From binary exploitation to emerging AI techniques — I'm constantly expanding my skill set and contributing to the cybersecurity community."
+        }
+      }
+    },
+    "process": {
+      "title": "An approach built around security, curiosity, and craft.",
+      "description": "No guesswork. Just a clear method from understanding the problem to delivering a secure, intelligent result.",
+      "cta": "Let's build something",
+      "step1": {
+        "title": "Understand",
+        "description": "Understanding the goals, threats, and constraints before touching a single line of code."
+      },
+      "step2": {
+        "title": "Plan & Scope",
+        "description": "Mapping the attack surface and defining the scope — you know exactly what will be tested and built."
+      },
+      "step3": {
+        "title": "Build & Test",
+        "description": "Developing and testing with security and performance built in, from the first commit to the final check."
+      },
+      "step4": {
+        "title": "Document & Deliver",
+        "description": "Clear documentation, ethical reporting, and continuous improvement. I don't disappear after the handoff."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Building a safer digital world through AI, automation, and cybersecurity"
+    },
+    "about": {
+      "title": "About",
+      "p1": "I'm Jashan — a cybersecurity enthusiast from Sirsa, India, focused on building a career in penetration testing, web security, and digital forensics.",
+      "p2": "I have hands-on experience identifying and mitigating vulnerabilities like SQL injection (SQLi), cross-site scripting (XSS), CSRF, broken access control, broken authentication, and IDOR. Beyond web security, I explore binary exploitation and conduct OSINT investigations to uncover digital footprints and analyze online threats.",
+      "p3": "Today I work on AI Automation & Intelligent Solutions at CSRBOX — exploring workflow automation, LLMOps, and agentic AI. My goal is to ethically strengthen security systems, protect sensitive data, and contribute to creating a safer digital environment."
+    },
+    "currently": {
+      "title": "Currently",
+      "description": "I'm a selected intern of the IBM SkillsBuild Academic Internship 2026 at CSRBOX (BharatCares Group, in collaboration with AICTE) — working on AI automation, intelligent solutions, workflow orchestration, and fine-tuning LLMs for domain-specific applications. I'm also pursuing a BTech in Artificial Intelligence at Jan Nayak Ch. Devi Lal Vidyapeeth, Sirsa (2025–2029). Always eager to learn, collaborate, and grow in the cybersecurity community."
+    },
+    "toolsAndTechnologies": {
+      "title": "Tools and Technologies"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Hands-on experience across AI automation, intelligent solutions, and cybersecurity. Selected intern at CSRBOX on AI Automation & Intelligent Solutions (IBM SkillsBuild 2026), with prior internships in OSINT and cybersecurity & forensics at Cyber Secured India. I combine security-first thinking with intelligent automation to build systems that are both smart and safe."
+    },
+    "companiesIveWorkedWith": {
+      "title": "Experience",
+      "cta": "View LinkedIn"
+    },
+    "approach": {
+      "title": "Approach",
+      "description": "I don't separate security from development — they're the same conversation. I start with the problem, test with intent, and document everything. I ask questions before I run a scan. I push back when something doesn't protect the goal. And I stay involved end-to-end — because context is where good security lives."
+    },
+    "purpose": {
+      "title": "Purpose",
+      "description": "I got into cybersecurity because the digital world needs people who defend it. Every vulnerability closed is a breach prevented. That still drives me — to build intelligent systems that are not just capable, but trustworthy."
+    },
+    "whatToExpect": {
+      "title": "What to expect",
+      "description": "Clarity from day one. I scope carefully, communicate directly, and flag problems early. I bring perspective, not just execution. If something can be better, I'll say so. Work that holds up — secure, documented, and built to last."
+    }
+  },
+  "works": {
+    "role": "Role",
+    "services": "Services",
+    "toolsAndTechnologies": "Tools and Technologies"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Got a project in mind? <span class='font-semibold italic'>Let's talk.</span>",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Elon Musk"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "elon@spacex.com"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "SpaceX"
+      },
+      "services": {
+        "label": "Services",
+        "placeholder": "Select a service",
+        "options": {
+          "immersive": "Immersive Web Experiences",
+          "premium": "Premium Websites",
+          "designDev": "Design + Development",
+          "other": "Something else"
+        }
+      },
+      "budget": {
+        "label": "Budget",
+        "placeholder": "Select a range",
+        "options": {
+          "tier1": "$2,000 – $4,000 USD",
+          "tier2": "$4,000 – $8,000 USD",
+          "tier3": "$8,000 – $15,000 USD",
+          "tier4": "$15,000+ USD"
+        }
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "I have a project launching in September and need..."
+      },
+      "submit": "Send message",
+      "sending": "Sending...",
+      "feedback": {
+        "success": "Message sent — I'll get back to you soon.",
+        "error": "Something went wrong. Please try again.",
+        "missingFields": "Please fill in your name, email and message.",
+        "invalidEmail": "Please enter a valid email address."
+      }
+    }
+  }
+}
