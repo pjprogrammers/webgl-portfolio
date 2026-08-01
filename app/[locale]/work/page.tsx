@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import WorksPageClient from "./WorksPageClient";
-import { siteUrl } from "@/config/site.config";
+import { openGraphBase, ogImage } from "@/config/og.config";
+import { localizedSiteUrl, siteUrl } from "@/config/site.config";
 
 export async function generateMetadata({
   params,
@@ -14,15 +15,19 @@ export async function generateMetadata({
     description:
       "Selected projects and experiences in AI automation, cybersecurity, and intelligent solutions — built with a security-first mindset.",
     alternates: {
-      canonical: siteUrl(`/${locale}/work`),
+      canonical: localizedSiteUrl(locale, "/work"),
       languages: {
-        en: siteUrl("/en/work"),
-        "x-default": siteUrl("/en/work"),
+        en: siteUrl("/work"),
+        "x-default": siteUrl("/work"),
       },
     },
     openGraph: {
-      url: siteUrl(`/${locale}/work`),
-      images: [{ url: "/og/og-works.png" }],
+      ...openGraphBase,
+      url: localizedSiteUrl(locale, "/work"),
+      title: "Works | Jashan Singla",
+      description:
+        "Selected projects and experiences in AI automation, cybersecurity, and intelligent solutions — built with a security-first mindset.",
+      images: [ogImage("/og/og-works.png", "Works — Jashan Singla")],
     },
   };
 }

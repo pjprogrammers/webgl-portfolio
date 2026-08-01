@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HomePage from "./HomePage";
-import { siteUrl } from "@/config/site.config";
+import { openGraphBase, ogImage } from "@/config/og.config";
+import { localizedSiteUrl, siteUrl } from "@/config/site.config";
 
 export async function generateMetadata({
   params,
@@ -14,15 +15,24 @@ export async function generateMetadata({
     description:
       "Cybersecurity enthusiast focused on penetration testing, web security, and digital forensics — with hands-on experience in AI automation, LLMOps, and agentic AI. Based in Sirsa, Haryana, India.",
     alternates: {
-      canonical: siteUrl(`/${locale}`),
+      canonical: localizedSiteUrl(locale),
       languages: {
-        en: siteUrl("/en"),
-        "x-default": siteUrl("/en"),
+        en: siteUrl("/"),
+        "x-default": siteUrl("/"),
       },
     },
     openGraph: {
-      url: siteUrl(`/${locale}`),
-      images: [{ url: "/og/og-home.png" }],
+      ...openGraphBase,
+      url: localizedSiteUrl(locale),
+      title: "Jashan Singla — AI Automation & Cybersecurity",
+      description:
+        "Cybersecurity enthusiast focused on penetration testing, web security, and digital forensics — with hands-on experience in AI automation, LLMOps, and agentic AI. Based in Sirsa, Haryana, India.",
+      images: [
+        ogImage(
+          "/og/og-home.png",
+          "Jashan Singla — AI Automation & Cybersecurity",
+        ),
+      ],
     },
   };
 }

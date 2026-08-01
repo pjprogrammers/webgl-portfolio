@@ -7,7 +7,8 @@ import { hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { AppProviders } from "@/components/providers/app-providers";
 import { JsonLd } from "@/components/JsonLd";
-import { siteUrl } from "@/config/site.config";
+import { SITE_NAME, ogImage } from "@/config/og.config";
+import { localizedSiteUrl, siteUrl } from "@/config/site.config";
 import "../globals.css";
 import { GlobalParticleCanvas, RigCanvas } from "@/components/webgl";
 import { Navbar, Loader, Contact } from "@/components/organisms";
@@ -53,6 +54,14 @@ export async function generateMetadata({
     description:
       "Cybersecurity enthusiast focused on penetration testing, web security, and digital forensics — with hands-on experience in AI automation, LLMOps, and agentic AI. Based in Sirsa, Haryana, India.",
 
+    applicationName: SITE_NAME,
+
+    appleWebApp: {
+      capable: true,
+      title: SITE_NAME,
+      statusBarStyle: "black-translucent",
+    },
+
     keywords: [
       "Cybersecurity",
       "Penetration Testing",
@@ -85,10 +94,10 @@ export async function generateMetadata({
     publisher: "Jashan Singla",
 
     alternates: {
-      canonical: siteUrl(`/${locale}`),
+      canonical: localizedSiteUrl(locale),
       languages: {
-        en: siteUrl("/en"),
-        "x-default": siteUrl("/en"),
+        en: siteUrl("/"),
+        "x-default": siteUrl("/"),
       },
     },
 
@@ -104,22 +113,23 @@ export async function generateMetadata({
       },
     },
 
+    verification: {
+      google: "yD0EuT3GHCroc_8sUd70Nt-puSwrlKEdsar7YRDcx_M",
+    },
+
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: siteUrl(`/${locale}`),
-      siteName: "Jashan Singla",
+      url: localizedSiteUrl(locale),
+      siteName: SITE_NAME,
       title: "Jashan Singla — AI Automation & Cybersecurity",
       description:
         "Cybersecurity enthusiast and AI automation intern building intelligent systems with security at the core. Based in Sirsa, Haryana, India.",
       images: [
-        {
-          url: "/og/og-home.png",
-          width: 1200,
-          height: 630,
-          alt: "Jashan Singla — AI Automation & Cybersecurity",
-          type: "image/png",
-        },
+        ogImage(
+          "/og/og-home.png",
+          "Jashan Singla — AI Automation & Cybersecurity",
+        ),
       ],
     },
 
@@ -128,7 +138,7 @@ export async function generateMetadata({
       title: "Jashan Singla — AI Automation & Cybersecurity",
       description:
         "Cybersecurity enthusiast and AI automation intern building intelligent systems with security at the core.",
-      images: ["/og/og-default.png"],
+      images: [ogImage("/og/og-default.png")],
     },
 
     icons: {
@@ -141,7 +151,7 @@ export async function generateMetadata({
       ],
       apple: [
         {
-          url: "/icons/apple-touch-icon.png",
+          url: "/apple-touch-icon.png",
           sizes: "180x180",
           type: "image/png",
         },
