@@ -127,7 +127,10 @@ export async function generateMetadata({
     },
 
     verification: {
-      google: "yD0EuT3GHCroc_8sUd70Nt-puSwrlKEdsar7YRDcx_M",
+      google: [
+        "yD0EuT3GHCroc_8sUd70Nt-puSwrlKEdsar7YRDcx_M",
+        "9dvNB2zJaOYOXGzaXxr-7_lgDjA4Rv15pNdMhfvC_7w",
+      ],
     },
 
     openGraph: {
