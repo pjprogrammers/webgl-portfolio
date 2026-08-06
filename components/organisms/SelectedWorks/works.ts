@@ -77,6 +77,3 @@ export const works: Work[] = [
     type: "video",
   },
 ];
-
-/** First three works from the same catalog used by the /work carousel. */
-export const selectedWorks = works.slice(0, 3);

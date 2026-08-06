@@ -39,10 +39,9 @@
       "ctaSuffix": " about Jashan Singla"
     },
     "selectedWorks": {
-      "title": "Featured work",
-      "description": "Creating experiences that people love to use because we start from the starting point of those people.",
-      "copy": "I design and build digital experiences that blend creativity, technology, and strategy — helping ideas become engaging products, platforms, and interactive experiences.",
-      "cta": "View all works"
+      "title": "Featured Work",
+      "headingPrefix": "Finding the flaw before it finds",
+      "headingSuffix": "someone else, then building the system that catches it next time."
     },
     "services": {
       "title": "From AI Automation to Cybersecurity, I've Got You Covered.",
