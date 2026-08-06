@@ -1,6 +1,6 @@
 import { routing } from "@/i18n/routing";
 
-export const SITE_URL = "https://jashan3d.vercel.app";
+export const SITE_URL = "https://jashansingla.is-a.dev";
 
 export function siteUrl(path = ""): string {
   if (!path) return SITE_URL;
