@@ -63,6 +63,12 @@ export async function generateMetadata({
     },
 
     keywords: [
+      "Jashan Singla",
+      "jashansingla",
+      "Jashan",
+      "Jashan Singla portfolio",
+      "Jashan Singla cybersecurity",
+      "Jashan Singla AI",
       "Cybersecurity",
       "Penetration Testing",
       "Web Security",
@@ -88,6 +94,13 @@ export async function generateMetadata({
       "India AI intern",
       "IBM SkillsBuild",
     ],
+
+    other: {
+      "geo.region": "IN-HR",
+      "geo.placename": "Sirsa, Haryana, India",
+      "geo.position": "29.5350;75.0150",
+      "ICBM": "29.5350, 75.0150",
+    },
 
     authors: [{ name: "Jashan Singla", url: siteUrl() }],
     creator: "Jashan Singla",
